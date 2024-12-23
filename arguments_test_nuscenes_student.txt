@@ -1,0 +1,11 @@
+--main_path ../
+--test_image_path ../testing/nuscenes/nuscenes_test_image.txt
+--test_radar_path ../testing/nuscenes/nuscenes_test_radar_new.txt
+--test_ground_truth_path ../testing/nuscenes/nuscenes_test_lidar.txt
+--w_image_feature_distill 1
+--w_radar_feature_distill 1
+--radar_input_channels 4
+--max_depth 100
+--checkpoint_path ./saved_models/LiRCDepth/model-1170000-best_mae_2.00887
+--max_depth_eval 80
+
