@@ -21,6 +21,11 @@ To train LiRCDepth on the nuScenes dataset, you may run:
 python main_student.py arguments_train_nuscenes_student.txt arguments_test_nuscenes.txt
 ```
 
+## Download pretrained model (LiRCDepth)
+You can download the model weights from the link: [model](https://drive.google.com/file/d/1cOYOwHzpAvvf6YXrkTAWivskIUYgyZlt/view?usp=drive_link).
+
+After downloading the model, put the file into the folder 'saved_models/LiRCDepth/'. Then it is able to evaluate the model.
+
 ## Evaluating LiRCDepth
 To evaluate LiRCDepth the nuScenes dataset, you may run:
 ```
